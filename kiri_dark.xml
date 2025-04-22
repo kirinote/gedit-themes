@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Copyright (c) 2025 Kirimaru
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see http://www.gnu.org/licenses/.
+
+-->
+<style-scheme id="kiri" name="Kiri" version="1.0">
+	
+	<author>Kirimaru</author>
+	<_description>Dark theme based on Nippon color palette</_description>
+	
+	<color name="shiro" value="#FFFFFF"/>
+	
+	<!--
+	 NIPPON COLORS  https://nipponcolors.com/ 
+	 Please refer to the link for the copyright of this site.
+	-->
+	<color name="nadeshiko" value="#DC9FB4"/>
+	<color name="kohbai" value="#E16B8C"/>
+	<color name="suoh" value="#8E354A"/>
+	<color name="taikoh" value="#F8C3CD"/>
+	<color name="ikkonzome" value="#F4A7B9"/>
+	<color name="kuwazome" value="#64363C"/>
+	<color name="momo" value="#F596AA"/>
+	
+	<color name="ichigo" value="#B5495B"/>
+	<color name="usubeni" value="#E87A90"/>
+	<color name="imayoh" value="#D05A6E"/>
+	<color name="nakabeni" value="#DB4D6D"/>
+	<color name="sakura" value="#FEDFE1"/>
+	<color name="umenezumi" value="#9E7A7A"/>
+	<color name="karakurenai" value="#D0104C"/>
+	
+	<color name="enji" value="#9F353A"/>
+	<color name="kurenai" value="#CB1B45"/>
+	<color name="toki" value="#EEA9A9"/>
+	<color name="cyohsyun" value="#BF6766"/>
+	<color name="kokiake" value="#86473F"/>
+	<color name="sakuranezumi" value="#B19693"/>
+	<color name="jinzamomi" value="#EB7A77"/>
+	
+	<color name="azuki" value="#954A45"/>
+	<color name="suohkoh" value="#A96360"/>
+	<color name="akabeni" value="#CB4042"/>
+	<color name="shinsyu" value="#AB3B3A"/>
+	<color name="haizakura" value="#D7C4BB"/>
+	<color name="kuriume" value="#904840"/>
+	<color name="ebicha" value="#734338"/>
+	
+	<color name="ginsyu" value="#C73E3A"/>
+	<color name="kurotobi" value="#554236"/>
+	<color name="benitobi" value="#994639"/>
+	<color name="akebono" value="#F19483"/>
+	<color name="benikaba" value="#B54434"/>
+	<color name="mizugaki" value="#B9887D"/>
+	<color name="sangosyu" value="#F17C67"/>
+	
+	<color name="benihiwada" value="#884C3A"/>
+	<color name="syojyohi" value="#E83015"/>
+	<color name="entan" value="#D75455"/>
+	<color name="shikancha" value="#B55D4C"/>
+	<color name="hiwada" value="#854836"/>
+	<color name="kakishibu" value="#A35E47"/>
+	<color name="ake" value="#CC543A"/>
+	
+	<color name="tobi" value="#724832"/>
+	<color name="benihi" value="#F75C2F"/>
+	<color name="kurikawacha" value="#6A4028"/>
+	<color name="bengara" value="#9A5034"/>
+	<color name="terigaki" value="#C46243"/>
+	<color name="edocha" value="#AF5F3C"/>
+	<color name="araisyu" value="#FB966E"/>
+	
+	<color name="momoshiocha" value="#724938"/>
+	<color name="karacha" value="#B47157"/>
+	<color name="tokigaracha" value="#DB8E71"/>
+	<color name="ohni" value="#F05E1C"/>
+	<color name="sohi" value="#ED784A"/>
+	<color name="ensyucha" value="#CA7853"/>
+	<color name="kabacha" value="#B35C37"/>
+	
+	<color name="kogecha" value="#563F2E"/>
+	<color name="akakoh" value="#E3916E"/>
+	<color name="suzumecya" value="#8F5A3C"/>
+	<color name="shishi" value="#F0A986"/>
+	<color name="sodenkaracha" value="#A0674B"/>
+	<color name="kaba" value="#C1693C"/>
+	<color name="kokikuchinash" value="#FB9966"/>
+	
+	<color name="kurumi" value="#947A6D"/>
+	<color name="taisya" value="#A36336"/>
+	<color name="araigaki" value="#E79460"/>
+	<color name="kohrozen" value="#7D532C"/>
+	<color name="akakuchiba" value="#C78550"/>
+	<color name="tonocha_1" value="#985F2A"/>
+	<color name="akashirotsurubami" value="#E1A679"/>
+	
+	<color name="sencha" value="#855B32"/>
+	<color name="kanzo" value="#FC9F4D"/>
+	<color name="sharegaki" value="#FFBA84"/>
+	<color name="beniukon" value="#E98B2A"/>
+	<color name="umezome" value="#E9A368"/>
+	<color name="biwacha" value="#B17844"/>
+	<color name="chojicha" value="#96632E"/>
+	
+	<color name="kenpohzome" value="#43341B"/>
+	<color name="kohaku" value="#CA7A2C"/>
+	<color name="usugaki" value="#ECB88A"/>
+	<color name="kyara" value="#78552B"/>
+	<color name="chojizome" value="#B07736"/>
+	<color name="fushizome" value="#967249"/>
+	<color name="kuchiba" value="#E2943B"/>
+	
+	<color name="kincha" value="#C7802D"/>
+	<color name="kitsune" value="#9B6E23"/>
+	<color name="susutake" value="#6E552F"/>
+	<color name="usukoh" value="#EBB471"/>
+	<color name="tonoko" value="#D7B98E"/>
+	<color name="ginsusutake" value="#82663A"/>
+	<color name="ohdo" value="#B68E55"/>
+	
+	<color name="shirocha" value="#BC9F77"/>
+	<color name="kobicya" value="#876633"/>
+	<color name="kigaracha" value="#C18A26"/>
+	<color name="yamabuki" value="#FFB11B"/>
+	<color name="yamabukicha" value="#D19826"/>
+	<color name="hajizome" value="#DDA52D"/>
+	<color name="kuwacha" value="#C99833"/>
+	
+	<color name="tamago" value="#F9BF45"/>
+	<color name="shirotsurubami" value="#DCB879"/>
+	<color name="kitsurubami" value="#BA9132"/>
+	<color name="tamamorokoshi" value="#E8B647"/>
+	<color name="hanaba" value="#F7C242"/>
+	<color name="namakabe" value="#7D6C46"/>
+	<color name="torinoko" value="#DAC9A6"/>
+	
+	<color name="utuki" value="#FAD689"/>
+	<color name="kikuchiba" value="#D9AB42"/>
+	<color name="kuchinashi" value="#F6C555"/>
+	<color name="tohoh" value="#FFC408"/>
+	<color name="ukon" value="#EFBB24"/>
+	<color name="karashi" value="#CAAD5F"/>
+	<color name="higosusutake" value="#8D742A"/>
+	
+	<color name="rikyushiracha" value="#B4A582"/>
+	<color name="aku" value="#877F6C"/>
+	<color name="rikyucha" value="#897D55"/>
+	<color name="rokohcha" value="#74673E"/>
+	<color name="nataneyu" value="#A28C37"/>
+	<color name="uguisucha" value="#6C6024"/>
+	<color name="kimirucha" value="#867835"/>
+	
+	<color name="mirucha" value="#62592C"/>
+	<color name="kariyasu" value="#E9CD4C"/>
+	<color name="nanohana" value="#F7D94C"/>
+	<color name="kihada" value="#FBE251"/>
+	<color name="mushikuri" value="#D9CD90"/>
+	<color name="aokuchiba" value="#ADA142"/>
+	<color name="ominaeshi" value="#DDD23B"/>
+	
+	<color name="hiwacha" value="#A5A051"/>
+	<color name="hiwa" value="#BEC23F"/>
+	<color name="uguisu" value="#6C6A2D"/>
+	<color name="yanagicha" value="#939650"/>
+	<color name="koke" value="#838A2D"/>
+	<color name="kikujin" value="#B1B479"/>
+	<color name="rikancha" value="#616138"/>
+	
+	<color name="aikobicha" value="#4B4E2A"/>
+	<color name="miru" value="#5B622E"/>
+	<color name="sensaicha" value="#4D5139"/>
+	<color name="baikohcha" value="#89916B"/>
+	<color name="hiwamoegi" value="#90B44B"/>
+	<color name="yanagizome" value="#91AD70"/>
+	<color name="urayanagi" value="#B5CAA0"/>
+	
+	<color name="iwaicha" value="#646A58"/>
+	<color name="moegi" value="#7BA23F"/>
+	<color name="nae" value="#86C166"/>
+	<color name="yanagisusutake" value="#4A593D"/>
+	<color name="matsuba" value="#42602D"/>
+	<color name="aoni" value="#516E41"/>
+	<color name="usuao" value="#91B493"/>
+	
+	<color name="yanaginezumi" value="#808F7C"/>
+	<color name="tokiwa" value="#1B813E"/>
+	<color name="wakatake" value="#5DAC81"/>
+	<color name="chitosemidori" value="#36563C"/>
+	<color name="midori" value="#227D51"/>
+	<color name="byakuroku" value="#A8D8B9"/>
+	<color name="oitake" value="#6A8372"/>
+	
+	<color name="tokusa" value="#2D6D4B"/>
+	<color name="onandocha" value="#465D4C"/>
+	<color name="rokusyoh" value="#24936E"/>
+	<color name="sabiseiji" value="#86A697"/>
+	<color name="aotake" value="#00896C"/>
+	<color name="veludo" value="#096148"/>
+	<color name="mushiao" value="#20604F"/>
+	
+	<color name="aimirucha" value="#0F4C3A"/>
+	<color name="tonocha_2" value="#4F726C"/>
+	<color name="aomidori" value="#00AA90"/>
+	<color name="seiji" value="#69B0AC"/>
+	<color name="tetsu" value="#26453D"/>
+	<color name="mizuasagi" value="#66BAB7"/>
+	<color name="seiheki" value="#268785"/>
+	
+	<color name="sabitetsuonando" value="#405B55"/>
+	<color name="korainando" value="#305A56"/>
+	<color name="byakugun" value="#78C2C4"/>
+	<color name="omeshicha" value="#376B6D"/>
+	<color name="kamenozoki" value="#A5DEE4"/>
+	<color name="fukagawanezumi" value="#77969A"/>
+	<color name="sabiasagi" value="#6699A1"/>
+	
+	<color name="mizu" value="#81C7D4"/>
+	<color name="asagi" value="#33A6B8"/>
+	<color name="onando" value="#0C4842"/>
+	<color name="ai" value="#0D5661"/>
+	<color name="shinbashi" value="#0089A7"/>
+	<color name="sabionando" value="#336774"/>
+	<color name="tetsuonando" value="#255359"/>
+	
+	<color name="hanaasagi" value="#1E88A8"/>
+	<color name="ainezumi" value="#566C73"/>
+	<color name="masuhana" value="#577C8A"/>
+	<color name="sora" value="#58B2DC"/>
+	<color name="noshimehana" value="#2B5F75"/>
+	<color name="chigusa" value="#3A8FB7"/>
+	<color name="omeshionando" value="#2E5C6E"/>
+	
+	<color name="hanada" value="#006284"/>
+	<color name="wasurenagusa" value="#7DB9DE"/>
+	<color name="gunjyo" value="#51A8DD"/>
+	<color name="tsuyukusa" value="#2EA9DF"/>
+	<color name="kurotsurubami" value="#0B1013"/>
+	<color name="kon" value="#0F2540"/>
+	<color name="kachi" value="#08192D"/>
+	
+	<color name="ruri" value="#005CAF"/>
+	<color name="rurikon" value="#0B346E"/>
+	<color name="benimidori" value="#7B90D2"/>
+	<color name="fujinezumi" value="#6E75A4"/>
+	<color name="tetsukon" value="#261E47"/>
+	<color name="konjyo" value="#113285"/>
+	<color name="benikakehana" value="#4E4F97"/>
+	
+	<color name="konkikyo" value="#211E55"/>
+	<color name="fuji" value="#8B81C3"/>
+	<color name="futaai" value="#70649A"/>
+	<color name="ouchi" value="#9B90C2"/>
+	<color name="fujimurasaki" value="#8A6BBE"/>
+	<color name="kikyo" value="#6A4C9C"/>
+	<color name="shion" value="#8F77B5"/>
+	
+	<color name="messhi" value="#533D5B"/>
+	<color name="usu" value="#B28FCE"/>
+	<color name="hashita" value="#986DB2"/>
+	<color name="edomurasaki" value="#77428D"/>
+	<color name="shikon" value="#3C2F41"/>
+	<color name="kokimurasaki" value="#4A225D"/>
+	<color name="sumire" value="#66327C"/>
+	
+	<color name="murasaki" value="#592C63"/>
+	<color name="ayame" value="#6F3381"/>
+	<color name="fujisusutake" value="#574C57"/>
+	<color name="benifuji" value="#B481BB"/>
+	<color name="kurobeni" value="#3F2B36"/>
+	<color name="nasukon" value="#572A3F"/>
+	<color name="budohnezumi" value="#5E3D50"/>
+	
+	<color name="hatobanezumi" value="#72636E"/>
+	<color name="kakitsubata" value="#622954"/>
+	<color name="ebizome" value="#6D2E5B"/>
+	<color name="botan" value="#C1328E"/>
+	<color name="umemurasaki" value="#A8497A"/>
+	<color name="nisemurasaki" value="#562E37"/>
+	<color name="tsutsuji" value="#E03C8A"/>
+	
+	<color name="murasakitobi" value="#60373E"/>
+	<color name="shironeri" value="#FCFAF2"/>
+	<color name="gofun" value="#FFFFFB"/>
+	<color name="shironezumi" value="#BDC0BA"/>
+	<color name="ginnezumi" value="#91989F"/>
+	<color name="namari" value="#787878"/>
+	<color name="hai" value="#828282"/>
+	
+	<color name="sunezumi" value="#787D7B"/>
+	<color name="rikyunezumi" value="#707C74"/>
+	<color name="nibi" value="#656765"/>
+	<color name="aonibi" value="#535953"/>
+	<color name="dobunezumi" value="#4F4F48"/>
+	<color name="benikeshinezumi" value="#52433D"/>
+	<color name="aisumicha" value="#373C38"/>
+	
+	<color name="binrojizome" value="#3A3226"/>
+	<color name="keshizumi" value="#434343"/>
+	<color name="sumi" value="#1C1C1C"/>
+	<color name="kuro" value="#080808"/>
+	<color name="ro" value="#0C0C0C"/>
+	
+	<style name="text" foreground="shironezumi" background="kuro"/>
+	<style name="selection" background="shikon"/>
+	<style name="cursor" foreground="shiro" background="shiro"/>
+	<style name="current-line" foreground="sumi" background="sumi"/>
+	<style name="line-numbers" foreground="keshizumi" background="kuro"/>
+	<style name="bracket-match" foreground="shironezumi" background="kuro" underline="false"/>
+	<style name="search-match" foreground="selection" background="nanohana"/>
+	<style name="background-pattern" background="aisumicha"/>
+	
+	<style name="def:function" foreground="wakatake"/>
+	<style name="def:identifier" foreground="botan"/>
+	<style name="def:keyword" foreground="botan"/>
+	<style name="def:number" foreground="karashi" />
+	<style name="def:boolean" foreground="mizuasagi"/>
+	<style name="def:string" foreground="karashi"/>
+	<style name="def:special-char" foreground="botan"/>
+	<style name="def:builtin" foreground="aomidori"/>
+	<style name="def:type" foreground="wakatake"/>
+	<style name="def:preprocessor" foreground="wakatake"/>
+	<style name="def:shebang" foreground="shironezumi"/>
+	<style name="def:comment" foreground="keshizumi"/>
+	
+	<style name="def:specials" foreground="shironezumi"/>
+	<style name="def:statement" foreground="botan"/>
+	
+	<style name="diff:added-line" foreground="shironezumi" background="moegi" bold="true"/>
+	<style name="diff:removed-line" foreground="shinsyu"/>
+	<style name="diff:changed-line" foreground="shironezumi" background="kon"/>
+	
+	<style name="def:emphasis" italic="true"/>
+	<style name="def:strong-emphasis" foreground="benifuji" bold="true"/>
+	<style name="def:inline-code" foreground="aomidori"/>
+	<style name="def:insertion" underline="single"/>
+	<style name="def:deletion" foreground="kurenai" strikethrough="true"/>
+	<style name="def:link-text" foreground="ohni"/>
+	<style name="def:link-symbol" foreground="ohni" bold="true"/>
+	<style name="def:link-destination" foreground="botan" italic="true" underline="single"/>
+	<style name="def:heading" foreground="midori" bold="true"/>
+	<style name="def:thematic-break" foreground="midori" bold="true"/>
+	<style name="def:preformatted-section" foreground="aomidori"/>
+	<style name="def:list-marker" foreground="benifuji" bold="true"/>
+	
+</style-scheme>
